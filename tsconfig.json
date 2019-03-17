@@ -8,6 +8,7 @@
         "inlineSourceMap": true,
         "resolveJsonModule": true,
         "experimentalDecorators": true,
+        "declaration": true,
         "sourceRoot": "src",
         "baseUrl": ".",
         "paths": {
