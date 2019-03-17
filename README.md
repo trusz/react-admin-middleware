@@ -5,12 +5,12 @@ for [react-admin](https://github.com/marmelab/react-admin)
 
 ## Install
 
-`npm install react-admin-middleware -d`
+`npm install react-admin-express-middleware -d`
 
 ## Usage
 
 ```js
-import { ReactAdmin } from "react-admin-middleware";
+import { ReactAdmin } from "react-admin-express-middleware";
 
 const app = express();
 
