@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "sourceRoot": "src",
+        "baseUrl": ".",
+        "paths": {
+            "src/*": ["src/*"],
+            "test/*": ["test/*"]
+        }
+    }
+}

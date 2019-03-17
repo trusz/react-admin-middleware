@@ -1,0 +1,13 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended", "tslint-no-unused-expression-chai"],
+    "linterOptions": {
+        "exclude": ["package.json"]
+    },
+    "jsRules": {},
+    "rules": {
+        "interface-name": false,
+        "cyclomatic-complexity": [true, 10]
+    },
+    "rulesDirectory": ["tslint-no-unused-expression-chai"]
+}

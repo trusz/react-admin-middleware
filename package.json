@@ -1,0 +1,49 @@
+{
+    "name": "react-admin-middleware",
+    "version": "1.0.0",
+    "description": "ExpressJS middleware for react-admin",
+    "main": "index.ts",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trusz/react-admin-middleware.git"
+    },
+    "keywords": [
+        "express",
+        "expresjs",
+        "read",
+        "react-admin",
+        "middleware"
+    ],
+    "author": "Tamás Rusz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/trusz/react-admin-middleware/issues"
+    },
+    "homepage": "https://github.com/trusz/react-admin-middleware#readme",
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/express": "^4.16.1",
+        "@types/express-mung": "^0.5.0",
+        "@types/lodash": "^4.14.123",
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^11.11.3",
+        "chai": "^4.2.0",
+        "chai-http": "^4.2.1",
+        "lodash": "^4.17.11",
+        "mocha": "^6.0.2",
+        "ts-node": "^8.0.3",
+        "tsconfig-paths": "^3.8.0",
+        "tslint": "^5.14.0",
+        "tslint-no-unused-expression-chai": "^0.1.4",
+        "typescript": "^3.3.3333"
+    },
+    "peerDependencies": {
+        "express": "^4.16.4"
+    },
+    "dependencies": {
+        "express-mung": "^0.5.1"
+    }
+}

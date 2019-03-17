@@ -1,0 +1,1 @@
+export { ReactAdmin } from "src";
