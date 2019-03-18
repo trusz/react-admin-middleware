@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { get } from "lodash";
-import { lowerCaseValue } from "src/common/lower-case-value";
+import { lowerCaseValue } from "./common/lower-case-value";
 
 export const Sort = (body: any, req: Request, res: Response) => {
     if (!Array.isArray(body)) {

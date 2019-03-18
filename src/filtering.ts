@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { lowerCaseValue } from "src/common/lower-case-value";
+import { lowerCaseValue } from "./common/lower-case-value";
 
 export const Filter = (body: any, req: Request) => {
     const filter = extractFilter(req);

@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "ES2016",
+        "target": "ES5",
         "module": "commonjs",
         "outDir": "./dist",
         "strict": true,
@@ -9,11 +9,6 @@
         "resolveJsonModule": true,
         "experimentalDecorators": true,
         "declaration": true,
-        "sourceRoot": "src",
-        "baseUrl": ".",
-        "paths": {
-            "src/*": ["src/*"],
-            "test/*": ["test/*"]
-        }
+        "sourceRoot": "src"
     }
 }
