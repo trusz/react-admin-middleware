@@ -1,13 +1,13 @@
 {
     "name": "react-admin-express-middleware",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "ExpressJS middleware for react-admin",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
         "clean": "./scripts/clean.sh",
         "build": "tsc -p .",
-        "install": "npm build",
+        "postinstall": "npm build",
         "prepublish": "npm run clean && npm run build"
     },
     "repository": {
