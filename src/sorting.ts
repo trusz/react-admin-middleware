@@ -30,14 +30,15 @@ function sort(
     b: any,
 ) {
     const weight = direction === Direction.ASC ? 1 : -1;
-    const valueA = lowerCaseValue(a, attribute);
-    const valueB = lowerCaseValue(b, attribute);
+    const valueA = String(a[attribute]);
+    const valueB = String(b[attribute]);
 
-    if (valueA < valueB) {
-        return 1 * weight;
-    }
-    if (valueA > valueB) {
-        return -1 * weight;
-    }
-    return 0;
+    return weight * compare(valueA, valueB);
+}
+
+function compare(valueA: string, valueB: string): number {
+    return valueA.localeCompare(valueB, void 0, {
+        numeric: true,
+        sensitivity: "accent",
+    });
 }
