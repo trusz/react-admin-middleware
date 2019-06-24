@@ -39,6 +39,6 @@ function sort(
 function compare(valueA: string, valueB: string): number {
     return valueA.localeCompare(valueB, void 0, {
         numeric: true,
-        sensitivity: "variant",
+        sensitivity: "accent",
     });
 }
